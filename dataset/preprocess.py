@@ -10,4 +10,9 @@ STOPWORDS = stopwords.words('english')
 PUNCTUATIONS = str.maketrans({key: None for key in string.punctuation+"¿¡?!"})
 
 
-class Pr
+class Preprocess:
+
+    def clean_dataset(self, dataset):
+        for index, row in dataset.iterrows():
+            clean_text = " "
+       
