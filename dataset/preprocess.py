@@ -15,4 +15,6 @@ class Preprocess:
     def clean_dataset(self, dataset):
         for index, row in dataset.iterrows():
             clean_text = " "
-       
+            lower_text = row.text.lower()
+            tweet_tokens = [
+                word for word in lower
