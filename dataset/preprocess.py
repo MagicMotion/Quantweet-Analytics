@@ -22,4 +22,9 @@ class Preprocess:
             clean_text = clean_text.join(tweet_tokens)
             dataset.at[index, 'text'] = clean_text
 
- 
+            return dataset
+
+    def _preprocess(self, sentence):
+        st = sentence.lower()
+        # url
+        
