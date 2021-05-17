@@ -18,4 +18,8 @@ class Preprocess:
             lower_text = row.text.lower()
             tweet_tokens = [
                 word for word in lower_text if word not in STOPWORDS]
-            tweet_tokens = [self._preprocess(txt) for txt in tweet_toke
+            tweet_tokens = [self._preprocess(txt) for txt in tweet_tokens]
+            clean_text = clean_text.join(tweet_tokens)
+            dataset.at[index, 'text'] = clean_text
+
+ 
