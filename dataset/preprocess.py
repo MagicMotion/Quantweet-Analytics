@@ -30,4 +30,7 @@ class Preprocess:
         st = re.sub(r"http\S+", "", st)
         # hashtag
         st = re.sub(
-            r"\B#([a-z0-9]{2,})(?![~!@#$%^
+            r"\B#([a-z0-9]{2,})(?![~!@#$%^&*()=+_`\-\|\/'\[\]\{\}]|[?.,]*\w)", "", st)
+        # @username
+        st = re.sub(r"@[a-zA-Z]+", "", st)
+        st = st.translat
