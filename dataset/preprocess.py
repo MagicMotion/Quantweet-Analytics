@@ -27,4 +27,7 @@ class Preprocess:
     def _preprocess(self, sentence):
         st = sentence.lower()
         # url
-        
+        st = re.sub(r"http\S+", "", st)
+        # hashtag
+        st = re.sub(
+            r"\B#([a-z0-9]{2,})(?![~!@#$%^
