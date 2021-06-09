@@ -33,4 +33,7 @@ class Preprocess:
             r"\B#([a-z0-9]{2,})(?![~!@#$%^&*()=+_`\-\|\/'\[\]\{\}]|[?.,]*\w)", "", st)
         # @username
         st = re.sub(r"@[a-zA-Z]+", "", st)
-        st = st.translat
+        st = st.translate(PUNCTUATIONS)
+        st = unicodedata.normalize('NFKD', st).encode(
+            'ASCII', 'ignore').decode()
+        return st
