@@ -7,4 +7,7 @@ from lambeq.core.types import AtomicType
 class Circuit:
 
     ansatz = SpiderAnsatz({AtomicType.NOUN: Dim(2),
-                           At
+                           AtomicType.SENTENCE: Dim(2)})
+
+    def create_circuit(self, diagram):
+        print('Creating circuits...'
