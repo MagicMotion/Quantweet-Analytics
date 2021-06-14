@@ -20,4 +20,5 @@ def split(dataset):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv(Pat
+    data = pd.read_csv(Paths.dataset_path)
+    split(data)
