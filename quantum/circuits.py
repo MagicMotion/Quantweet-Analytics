@@ -10,4 +10,9 @@ class Circuit:
                            AtomicType.SENTENCE: Dim(2)})
 
     def create_circuit(self, diagram):
-        print('Creating circuits...'
+        print('Creating circuits...')
+        circuits = [self.ansatz(d) for d in diagram]
+
+        return circuits
+
+    def draw_circuits(self, circu
