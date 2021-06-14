@@ -15,4 +15,8 @@ class Circuit:
 
         return circuits
 
-    def draw_circuits(self, circu
+    def draw_circuits(self, circuits):
+        for i in enumerate(circuits):
+            self.draw_circuit(circuits, i)
+
+    def draw_circ
