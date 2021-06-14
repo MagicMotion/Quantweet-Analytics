@@ -8,4 +8,8 @@ def split(dataset):
     train_df.to_csv(Paths.train_dataset_path, index=False)
 
     test_df = dataset.drop(train_df.index)
-    test_df = test_df.sample(frac
+    test_df = test_df.sample(frac=0.5)
+    print(f'Test dataset shape: {test_df.shape}')
+    test_df.to_csv(Paths.test_dataset_path, index=False)
+
+    
