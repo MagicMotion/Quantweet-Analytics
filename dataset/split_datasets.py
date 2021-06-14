@@ -12,4 +12,6 @@ def split(dataset):
     print(f'Test dataset shape: {test_df.shape}')
     test_df.to_csv(Paths.test_dataset_path, index=False)
 
-    
+    val_df = dataset.drop(train_df.index)
+    val_df = val_df.drop(test_df.index)
+    print(f'Validation dataset shape:
