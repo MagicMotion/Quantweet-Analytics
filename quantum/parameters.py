@@ -12,4 +12,6 @@ class Parameter:
             key=default_sort_key)
 
     def make_pred_fn(self):
-        def
+        def predict(params):
+            return torch.stack(
+                [c.lambdify(*self.parameters)(*params).eval(contractor
