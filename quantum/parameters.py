@@ -14,4 +14,9 @@ class Parameter:
     def make_pred_fn(self):
         def predict(params):
             return torch.stack(
-                [c.lambdify(*self.parameters)(*params).eval(contractor
+                [c.lambdify(*self.parameters)(*params).eval(contractor=tn.contractors.auto).array
+                 for c in self.circuits])
+        return predict
+
+    def get_parameters(self):
+    
