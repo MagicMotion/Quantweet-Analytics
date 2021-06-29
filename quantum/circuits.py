@@ -19,4 +19,5 @@ class Circuit:
         for i in enumerate(circuits):
             self.draw_circuit(circuits, i)
 
-    def draw_circ
+    def draw_circuit(self, circuits, i):
+        circuits[i].draw()
