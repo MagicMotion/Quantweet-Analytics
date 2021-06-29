@@ -19,4 +19,4 @@ class Parameter:
         return predict
 
     def get_parameters(self):
-    
+        return self.parameters
