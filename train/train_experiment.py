@@ -10,4 +10,7 @@ from quantum.parameters import Parameter
 from dataset.preprocess import Preprocess
 
 
-datas
+dataset = pd.read_csv(Paths.train_dataset_path)
+dev_dataset = pd.read_csv(Paths.test_dataset_path)
+
+clean_dataset = Pre
