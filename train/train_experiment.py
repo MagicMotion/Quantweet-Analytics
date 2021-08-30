@@ -13,4 +13,7 @@ from dataset.preprocess import Preprocess
 dataset = pd.read_csv(Paths.train_dataset_path)
 dev_dataset = pd.read_csv(Paths.test_dataset_path)
 
-clean_dataset = Pre
+clean_dataset = Preprocess().clean_dataset(dataset)
+clean_dev_dataset = Preprocess().clean_dataset(dev_dataset)
+
+train_labels, train_data = Dataset
