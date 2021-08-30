@@ -16,4 +16,7 @@ dev_dataset = pd.read_csv(Paths.test_dataset_path)
 clean_dataset = Preprocess().clean_dataset(dataset)
 clean_dev_dataset = Preprocess().clean_dataset(dev_dataset)
 
-train_labels, train_data = Dataset
+train_labels, train_data = Dataset().read_data(clean_dataset)
+dev_labels, dev_data = Dataset().read_data(clean_dev_dataset)
+
+train_diagrams = Diagram().c
