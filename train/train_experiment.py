@@ -19,4 +19,7 @@ clean_dev_dataset = Preprocess().clean_dataset(dev_dataset)
 train_labels, train_data = Dataset().read_data(clean_dataset)
 dev_labels, dev_data = Dataset().read_data(clean_dev_dataset)
 
-train_diagrams = Diagram().c
+train_diagrams = Diagram().create_diagram(train_data)
+dev_diagrams = Diagram().create_diagram(dev_data)
+
+train_circuits = C
