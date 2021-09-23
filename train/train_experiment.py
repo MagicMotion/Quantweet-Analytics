@@ -25,4 +25,8 @@ dev_diagrams = Diagram().create_diagram(dev_data)
 train_circuits = Circuit().create_circuit(train_diagrams)
 dev_circuits = Circuit().create_circuit(dev_diagrams)
 
-train_pred_fn = Parameter(train_circuits).make_pred_f
+train_pred_fn = Parameter(train_circuits).make_pred_fn()
+dev_pred_fn = Parameter(dev_circuits).make_pred_fn()
+
+train_cost_fn, train_costs, train_accs = Train(
+).make_cost_
