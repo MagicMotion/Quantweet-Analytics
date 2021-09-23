@@ -30,4 +30,10 @@ dev_pred_fn = Parameter(dev_circuits).make_pred_fn()
 
 train_cost_fn, train_costs, train_accs = Train(
 ).make_cost_fn(train_pred_fn, train_labels)
-dev_cost_fn, dev_costs, dev_accs = Train().make_cost_fn(dev_pred_fn, dev_labels
+dev_cost_fn, dev_costs, dev_accs = Train().make_cost_fn(dev_pred_fn, dev_labels)
+
+x0 = [torch.nn.init.uniform_(torch.empty(p.size))
+      for p in Parameter(train_circuits).get_parameters()]
+
+
+result = T
