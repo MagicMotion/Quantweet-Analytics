@@ -22,4 +22,7 @@ dev_labels, dev_data = Dataset().read_data(clean_dev_dataset)
 train_diagrams = Diagram().create_diagram(train_data)
 dev_diagrams = Diagram().create_diagram(dev_data)
 
-train_circuits = C
+train_circuits = Circuit().create_circuit(train_diagrams)
+dev_circuits = Circuit().create_circuit(dev_diagrams)
+
+train_pred_fn = Parameter(train_circuits).make_pred_f
