@@ -37,4 +37,4 @@ x0 = [torch.nn.init.uniform_(torch.empty(p.size))
 
 
 result = Train().train(train_cost_fn, x0, niter=20, callback=dev_cost_fn,
-                       optimizer_fn=torch.optim.AdamW, lr=0.1
+                       optimizer_fn=torch.optim.AdamW, lr=0.1)
