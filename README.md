@@ -4,3 +4,8 @@ This project's focus is training a NLP model employing quantum techniques, speci
 
 ## Prerequisites
 * Python 3.8+
+* Pipenv
+* Familiarity with natural language processing
+* Basic understanding of quantum computing
+
+## In
