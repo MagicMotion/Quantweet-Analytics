@@ -8,4 +8,5 @@ This project's focus is training a NLP model employing quantum techniques, speci
 * Familiarity with natural language processing
 * Basic understanding of quantum computing
 
-## In
+## Insights
+The dataset we're working on is `sentiment140`, an extensive repository with approximately 
