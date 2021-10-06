@@ -9,4 +9,9 @@ This project's focus is training a NLP model employing quantum techniques, speci
 * Basic understanding of quantum computing
 
 ## Insights
-The dataset we're working on is `sentiment140`, an extensive repository with approximately 
+The dataset we're working on is `sentiment140`, an extensive repository with approximately 1,6 million tweets. It follows this classification system:
+* 0 = negative
+* 2 = neutral
+* 4 = positive
+
+### 
