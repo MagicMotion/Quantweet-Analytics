@@ -14,4 +14,9 @@ The dataset we're working on is `sentiment140`, an extensive repository with app
 * 2 = neutral
 * 4 = positive
 
-### 
+### Cleaning Data
+We remove ...
+
+
+### Dataset Acquisition
+This dataset can be secured from [link](https://www.kaggle.com/kaza
