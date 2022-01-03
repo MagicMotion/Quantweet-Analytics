@@ -23,4 +23,7 @@ This dataset can be secured from [link](https://www.kaggle.com/kazanova/sentimen
 
 ## Illuminate the Quantum Pipeline
 ### Understanding the Quantum Circuit
-A quantum circuit 
+A quantum circuit is a sequence of quantum gates, measurements and resets, mingled with real-time classical computations. 
+
+### Our Pipeline
+W
