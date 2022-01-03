@@ -26,4 +26,5 @@ This dataset can be secured from [link](https://www.kaggle.com/kazanova/sentimen
 A quantum circuit is a sequence of quantum gates, measurements and resets, mingled with real-time classical computations. 
 
 ### Our Pipeline
-We apply the `lambeq` library's pipeline to transform sentences to quantum circuits. The output of 
+We apply the `lambeq` library's pipeline to transform sentences to quantum circuits. The output of this pipeline might either be a quantum circuit or a tensor network, both suitable for training.
+
