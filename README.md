@@ -19,4 +19,8 @@ We remove ...
 
 
 ### Dataset Acquisition
-This dataset can be secured from [link](https://www.kaggle.com/kaza
+This dataset can be secured from [link](https://www.kaggle.com/kazanova/sentiment140).
+
+## Illuminate the Quantum Pipeline
+### Understanding the Quantum Circuit
+A quantum circuit 
