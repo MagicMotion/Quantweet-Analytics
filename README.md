@@ -28,3 +28,8 @@ A quantum circuit is a sequence of quantum gates, measurements and resets, mingl
 ### Our Pipeline
 We apply the `lambeq` library's pipeline to transform sentences to quantum circuits. The output of this pipeline might either be a quantum circuit or a tensor network, both suitable for training.
 
+Pipeline visual guide:
+![](https://cqcl.github.io/lambeq/_images/pipeline.png)
+
+### Preprocessing Sentences
+Sentences 
