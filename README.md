@@ -32,4 +32,4 @@ Pipeline visual guide:
 ![](https://cqcl.github.io/lambeq/_images/pipeline.png)
 
 ### Preprocessing Sentences
-Sentences 
+Sentences are first stripped of hashtags and usernames present in the tweets, for this superfluous information can disrupt the t
