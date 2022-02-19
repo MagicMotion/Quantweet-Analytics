@@ -33,4 +33,7 @@ Pipeline visual guide:
 
 ### Preprocessing Sentences
 Sentences are first stripped of hashtags and usernames present in the tweets, for this superfluous information can disrupt the training, testing, and validation stages.
-The preliminary step post preprocessing in `lambeq` involves con
+The preliminary step post preprocessing in `lambeq` involves converting sentences to string diagrams following a prescribed compositional model.
+
+### Diagram Rewiring
+To avoid u
