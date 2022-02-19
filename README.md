@@ -36,4 +36,4 @@ Sentences are first stripped of hashtags and usernames present in the tweets, fo
 The preliminary step post preprocessing in `lambeq` involves converting sentences to string diagrams following a prescribed compositional model.
 
 ### Diagram Rewiring
-To avoid u
+To avoid unnecessary hardware resource utilization and lengthy training intervals, syntactic derivations are rewrit
