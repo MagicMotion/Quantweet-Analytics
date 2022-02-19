@@ -32,4 +32,5 @@ Pipeline visual guide:
 ![](https://cqcl.github.io/lambeq/_images/pipeline.png)
 
 ### Preprocessing Sentences
-Sentences are first stripped of hashtags and usernames present in the tweets, for this superfluous information can disrupt the t
+Sentences are first stripped of hashtags and usernames present in the tweets, for this superfluous information can disrupt the training, testing, and validation stages.
+The preliminary step post preprocessing in `lambeq` involves con
