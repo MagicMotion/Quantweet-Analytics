@@ -39,4 +39,7 @@ The preliminary step post preprocessing in `lambeq` involves converting sentence
 To avoid unnecessary hardware resource utilization and lengthy training intervals, syntactic derivations are rewritten to simplify string diagrams.
 
 Example of diagram rewiring:
-![](https://cqcl.github.io/lambeq
+![](https://cqcl.github.io/lambeq/_images/tutorials_rewrite_2_0.png)
+
+### Parameterisation Phase
+By employing ansätze, the abstract string diagrams are t
