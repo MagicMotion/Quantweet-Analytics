@@ -45,4 +45,5 @@ Example of diagram rewiring:
 By employing ansätze, the abstract string diagrams are transformed into quantum circuits or tensor networks.
 
 ### Model Training
-Final step involves model training. In our use-cas
+Final step involves model training. In our use-case, we are performing classical experiment with PyTorch. The steps are as follows:
+* Extract word s
