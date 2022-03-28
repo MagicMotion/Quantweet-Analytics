@@ -42,4 +42,7 @@ Example of diagram rewiring:
 ![](https://cqcl.github.io/lambeq/_images/tutorials_rewrite_2_0.png)
 
 ### Parameterisation Phase
-By employing ansätze, the abstract string diagrams are t
+By employing ansätze, the abstract string diagrams are transformed into quantum circuits or tensor networks.
+
+### Model Training
+Final step involves model training. In our use-cas
