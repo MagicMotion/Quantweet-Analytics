@@ -48,4 +48,6 @@ By employing ansätze, the abstract string diagrams are transformed into quantum
 Final step involves model training. In our use-case, we are performing classical experiment with PyTorch. The steps are as follows:
 * Extract word symbols from all diagrams to create a vocabulary.
 * Assign tensor to each word in the vocabulary.
-* In th
+* In the training loop:
+  - Associate tensors from the vocabulary with words for every diagram.
+  - Contract the diagram to y
