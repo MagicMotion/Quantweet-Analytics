@@ -50,4 +50,6 @@ Final step involves model training. In our use-case, we are performing classical
 * Assign tensor to each word in the vocabulary.
 * In the training loop:
   - Associate tensors from the vocabulary with words for every diagram.
-  - Contract the diagram to y
+  - Contract the diagram to yield a result.
+  - Compute loss using the result.
+  - Compute gradient using the loss and update tensors.
